@@ -1,0 +1,12 @@
+fib=int(input("enter a value for FibonacciSeries: "))
+x=0
+y=1
+value=0
+count=1
+print("Fibonacci Series: ",end=" ")
+while(count<=fib):
+    print(value,end= " ")
+    count+=1
+    x=y
+    y=value
+    value=x+y
